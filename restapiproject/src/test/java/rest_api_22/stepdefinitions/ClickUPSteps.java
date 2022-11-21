@@ -22,11 +22,11 @@ public class ClickUPSteps {
         TestCaseContext.setSpace(space);
 
         Assertions.assertThat(space.getId())
-                .as("I check that the Space ID is correct ")
+                .as("I check that the Space ID is correct and displays the necessary information ")
                 .isEqualTo(SPACE_ID);
 
         Assertions.assertThat(space.getName())
-                .as("I check that the Space ID is correct ")
+                .as("I verrify the space id name ")
                 .isEqualTo(SPACE_NAME);
     }
 
@@ -40,7 +40,7 @@ public class ClickUPSteps {
         TestCaseContext.setFolder(folder);
 
         Assertions.assertThat(folder.getName())
-                .as("We verify that the Folder name is correct")
+                .as("I verify that the Folder name is correct")
                 .isEqualTo(title);
     }
 
@@ -79,7 +79,7 @@ public class ClickUPSteps {
     public void iCheckThatATaskIsCreated(String title) {
 
         Assertions.assertThat(TestCaseContext.getTask().getName())
-                .as("We verify that the task is created and  name is correct")
+                .as("I verify that the task is created and  name is correct")
                 .isEqualTo(title);
     }
 
