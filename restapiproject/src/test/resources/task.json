@@ -1,0 +1,34 @@
+{
+  "description": "Sample Description",
+  "type": "task",
+  "name": "Sample Task",
+  "due_date": 1508369194377,
+  "due_date_time": false,
+  "time_estimate": 8640000,
+  "start_date": 1567780450202,
+  "start_date_time": false,
+  "notify_all": true,
+  "parent": null,
+  "status": "to do",
+  "position": 0,
+  "project": {
+    "id": "67266008",
+    "name": "TestSpace"
+  },
+  "linkedTasks": [],
+  "assignees": [
+    61331236
+  ],
+  "dont_follow": false,
+  "followers": [],
+  "links_to": null,
+  "priority": 1,
+  "tags": [
+    "sample tag"
+  ],
+  "subcategory_id": "205456275",
+  "v2": true,
+  "check_required_custom_fields": true,
+  "template_options": {},
+  "custom_fields": []
+}
